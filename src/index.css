@@ -80,6 +80,8 @@ textarea {
   fill: #5a5a5d;
 }
 
+
+
 .option-list{
 
   width: 100%;
@@ -132,6 +134,7 @@ border-radius: 4px;
 
 .option-list li:hover{
   background-color: #5a5a5d;
+  cursor: pointer;
 }
 
 .list-item {
@@ -151,6 +154,10 @@ border-radius: 4px;
   display: flex;
   align-items: center;
 
+}
+
+.button-container:hover, .arrow-container:hover,.delete:hover, .down-arrow:hover{
+  cursor: pointer;
 }
 
 .input .delete {
